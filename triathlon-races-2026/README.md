@@ -2,7 +2,19 @@
 
 🚀 From zero to a fully functional web page in a few minutes, let GitHub Copilot do the heavy lifting while you focus on customization!  
 
-No prior coding experience required! Build a simple web application to showcase **Triathlon Races for 2026** with details such as location, prices, difficulty, country, official website, and more. Built with **React/Next.js**, styled with **Tailwind CSS**, and powered by **GitHub Copilot** for rapid development.
+No prior coding experience required! Build a simple web application to showcase **Triathlon Races for 2026**. Built with **React/Next.js**, styled with **Tailwind CSS**, and powered by **GitHub Copilot** for rapid development.
+
+### ⏱️ Can you build a single-page website in under 6 minutes?
+After experimenting, I’d say you can comfortably generate a basic page in under 30 seconds with GitHub Copilot.
+
+Of course, if you want the design and functionality to be more tailored to your expectations, like in my case with **Triathlon Races 2026** page featuring advanced filters, you’ll likely spend a few extra minutes refining prompts and improving details.
+
+👉 Still, this is a huge win both for non-coders who want to create something quickly, and for engineers looking for rapid prototyping solutions.
+
+⚡ The biggest challenge I faced wasn’t the coding, it was the data gathering. For that, using another tool (like ChatGPT) proved much more effective.
+
+
+<img width="3840" height="2486" alt="image" src="https://github.com/user-attachments/assets/708b3e15-56ee-43a3-820f-68bb93ee6b01" />
 
 ---
 
@@ -10,7 +22,7 @@ No prior coding experience required! Build a simple web application to showcase 
 
 1. Clone the repository:
   ```bash
-  git clone <repo-url>
+  git clone https://github.com/LuciaHarcekova/ai-playground-no-code/tree/main/triathlon-races-2026
   cd triathlon-races-2026/web
   ```
 2. Install dependencies:
@@ -29,7 +41,7 @@ No prior coding experience required! Build a simple web application to showcase 
 
 
 1. 🔧 Setup Environment  
-2. 🤖 Ask Copilot to generate page  
+2. 🤖 Ask Copilot to generate Single Page Application  
 3. 🛠 Fixing  
 4. ✨ Adjust based on your recommendation  
 
@@ -69,14 +81,14 @@ cd triathlon-races-2026
 
 ---
 
-## 🤖 2. Ask Copilot to Generate Page
+## 🤖 2. Ask Copilot to Generate Single Page Application
 
 Use this prompt in **Copilot Chat**:
 
 ```
 Create a new project named "triathlon-races-2026".
 Inside this project, add all necessary resources to build a single web page that displays a table in the center of the page containing the top 1000 triathlon races of different distances for the year 2026.
-The race data should be gathered from search results of triathlon races.
+The race data should be gathered from the search results of triathlon races.
 The table must include the following fields: Race name, Location, Date, Registration link, Price, Difficulty level, Summary/description and any other important details.
 At the top of the table, add a filter for each field.
 Filters should be elegant and expandable, not bulky or overwhelming.
@@ -99,12 +111,18 @@ Copilot generated only **6 races** instead of 1000.
 
 ✅ **Solution:** I used ChatGPT to generate an Excel/JSON file with 1000 races for 2026. This worked perfectly — I quickly gathered the data and updated it in `racesData.json`.
 
+<img width="1607" height="611" alt="image" src="https://github.com/user-attachments/assets/ca7c508b-c468-434f-ada7-b1d6230f5867" />
+
 ---
 
 ## ✨ 4. Adjust Based on Recommendations
 
-Once Copilot generates the page, refine it by asking:
+Once Copilot generates the page, you can refine and improve it by providing additional prompts.
 
+<img width="3840" height="2486" alt="image" src="https://github.com/user-attachments/assets/cb8c00c2-91a7-470a-8a31-caf9b25a1c88" />
+
+
+Prompts I have used:
 * For the **Country filter**, allow both free text input and, below it, show a list of existing country options from the table.
 * Do the same for the **Difficulty Level filter**.
 * For **Price**, add a range selector (minimum = lowest price in the table, maximum = highest).
@@ -114,5 +132,7 @@ Once Copilot generates the page, refine it by asking:
 * Replace column **"Other Details"** with **"Distance"**.
 * For **Date**, use a date selector and display it as a calendar.
 * For filterable fields, display available options as a **dropdown below the input field**. Hide them when the user is not typing anymore (instead of showing them inline at all times).
+
+<img width="3840" height="2486" alt="image" src="https://github.com/user-attachments/assets/bd7b5e0c-3010-4df1-89fd-b7c6b6957c2c" />
 
 
