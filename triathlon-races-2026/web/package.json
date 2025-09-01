@@ -1,0 +1,17 @@
+{
+  "name": "triathlon-races-2026-web",
+  "version": "1.0.0",
+  "description": "Web page displaying top 1000 triathlon races for 2026 with filters and elegant UI.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}

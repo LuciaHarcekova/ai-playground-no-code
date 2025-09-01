@@ -1,0 +1,164 @@
+/* Dropdown for filter selectors */
+.filter-dropdown {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid #d0e6f6;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  margin-top: 4px;
+  z-index: 20;
+  min-width: 160px;
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 4px 0;
+  animation: fadeIn 0.2s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* Option in dropdown */
+.filter-option {
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-size: 1rem;
+}
+.filter-option:hover {
+  background: #d0e6f6;
+}
+/* App.css - Blue, Green, Gray palette, elegant filters and centered table */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #e0f7fa 0%, #e8f5e9 100%);
+  color: #263238;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f5f5f5;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 32px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  background: #e3f2fd;
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04);
+  transition: background 0.2s;
+  position: relative;
+}
+
+.filter-group:hover {
+  background: #bbdefb;
+}
+
+.filter-label {
+  margin: 0 8px;
+  color: #388e3c;
+  font-weight: 500;
+}
+
+.expand-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 4px;
+  transition: background 0.2s;
+}
+
+.expand-btn:hover {
+  background: #388e3c;
+}
+
+.filter-input {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: 1px solid #90caf9;
+  border-radius: 6px;
+  outline: none;
+  font-size: 15px;
+  background: #f0f4c3;
+  color: #263238;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.races-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1100px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.07);
+}
+
+.races-table th {
+  background: #1976d2;
+  color: #fff;
+  padding: 14px 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.races-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #263238;
+  font-size: 15px;
+}
+
+.races-table tr:last-child td {
+  border-bottom: none;
+}
+
+.races-table a {
+  color: #388e3c;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 8px;
+  }
+  .filters {
+    gap: 8px;
+  }
+  .races-table th, .races-table td {
+    padding: 8px 4px;
+    font-size: 13px;
+  }
+}
