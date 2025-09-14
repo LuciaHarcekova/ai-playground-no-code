@@ -491,3 +491,9 @@ Avoid these expensive mistakes that even experienced practitioners make!
 ¹⁹ **ANN (Artificial Neural Network)**: Basic neural network with fully connected layers  
 ²⁰ **CNN (Convolutional Neural Network)**: Neural network designed for processing grid-like data (images)  
 ²¹ **RNN (Recurrent Neural Network)**: Neural network designed for sequential data with memory
+
+---
+
+<div align="center">
+   Lucia Harcekova
+</div>
