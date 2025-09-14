@@ -1,4 +1,4 @@
-# 🤖 AI & Machine Learning Cheatsheet Summary
+# 🤖 Machine Learning Cheatsheet Summary
 
 *Your comprehensive guide to understanding and applying machine learning concepts*
 
@@ -7,13 +7,13 @@
 1. [🎯 What is Machine Learning?](#-what-is-machine-learning)
 2. [🔍 AI vs Machine Learning](#-ai-vs-machine-learning)
 3. [⚙️ Machine Learning Workflow](#️-machine-learning-workflow)
-4. [📊 Types of Machine Learning](#-types-of-machine-learning)
-5. [🎓 Supervised Learning](#-supervised-learning)
+4. [Types of Machine Learning](#-types-of-machine-learning)
+5. [Supervised Learning](#-supervised-learning)
    - [Classification Models](#classification-models-categorical-target)
    - [Regression Models](#regression-models-continuous-target)
 6. [📈 Regression vs Classification Summary](#-regression-vs-classification-summary)
-7. [🔍 Unsupervised Learning](#-unsupervised-learning)
-8. [🎮 Reinforcement Learning Methods](#-reinforcement-learning-methods)
+7. [Unsupervised Learning](#-unsupervised-learning)
+8. [Reinforcement Learning Methods](#-reinforcement-learning-methods)
 9. [🛠️ Data Preprocessing](#️-data-preprocessing)
 10. [🧠 Deep Learning Fundamentals](#-deep-learning-fundamentals)
 11. [⚖️ Bias-Variance Trade-off](#️-bias-variance-trade-off)
@@ -100,11 +100,11 @@ graph TD
 
 ---
 
-## 📊 Types of Machine Learning
+## Types of Machine Learning
 
 Understanding the three main types of ML helps you choose the right approach for your problem:
 
-| Type | 🎯 What it Does | 📋 Data Requirement | 💼 Example Use Cases | ✅ Benefits | ❌ Limitations |
+| Type | 🔍 Explanation | 📋 Data Requirement | 🎯 Example Usage | ✅ Benefits | ❌ Limitations |
 | ---- | -------------- | ------------------- | ------------------- | ---------- | ------------- |
 | **🎓 Supervised Learning** | Learns mapping from input to output using labeled data | Requires labeled data (features + target⁴) | 🏠 House price prediction<br/>📧 Spam detection<br/>🩺 Medical diagnosis | High accuracy with sufficient labeled data; easy evaluation | Requires large labeled datasets; may overfit |
 | **🔍 Unsupervised Learning** | Finds hidden patterns without labeled outcomes | Only input features, no target labels | 👥 Customer segmentation<br/>🚨 Anomaly detection<br/>📰 Topic modeling | Explores unknown data; reveals hidden structures | Hard to interpret; no accuracy guarantee |
@@ -117,17 +117,17 @@ Understanding the three main types of ML helps you choose the right approach for
 
 ---
 
-## 🎓 Supervised Learning
+## Supervised Learning
 
 **Supervised learning** trains models on labeled data to learn the mapping from input (features) to output (labels/values). Think of it as learning with a teacher who provides the "correct answers."
 
 > **💡 Real-world Example:** Teaching a child to recognize animals by showing them pictures labeled "cat," "dog," "bird." After seeing many examples, they can identify animals in new photos.
 
-### 🏷️ Classification Models (Categorical target⁵)
+### Classification Models (Categorical target⁵)
 
 *When you need to predict **categories** or **classes***
 
-| Model               | Explanation                                   | Example Usage                    |
+| Model               | 🔍 Explanatio                                   | Example Usage                    |
 | ------------------- | --------------------------------------------- | -------------------------------- |
 | Logistic Regression | Models probability of binary outcomes         | Email spam detection             |
 | Decision Trees      | Classifies using feature-based rules          | Loan approval                    |
@@ -156,7 +156,7 @@ Understanding the three main types of ML helps you choose the right approach for
 
 </details>
 
-### 📊 Regression Models (Continuous target¹⁰)
+### Regression Models (Continuous target¹⁰)
 
 *When you need to predict **numerical values***
 
@@ -197,20 +197,20 @@ Quick reference to help you choose between regression and classification:
 
 | Aspect | 📊 Regression | 🏷️ Classification |
 | ------ | ------------ | ---------------- |
-| **🎯 Target Variable** | Continuous numbers | Discrete categories |
-| **🎨 Goal** | Predict exact numeric values | Assign to predefined categories |
-| **💼 Example Problems** | 🏠 House prices, 📈 Stock prices, 🌡️ Temperature | 📧 Spam detection, 🩺 Disease diagnosis, 👤 Image recognition |
-| **⚙️ Algorithms** | Linear, Polynomial, Ridge/Lasso, Trees, RF, SVR, Boosting | Logistic, Trees, Random Forests, SVM, k-NN, Naïve Bayes, Neural Networks |
-| **📏 Evaluation Metrics** | MAE, MSE, RMSE, R² | Accuracy, Precision, Recall, F1, ROC-AUC |
-| **🎁 Output** | Real number (e.g., $250,000) | Class label (e.g., "Spam") or probability |
-| **🏢 Use Cases** | Finance, real estate, forecasting | Healthcare, fraud detection, image/speech recognition |
-| **⚠️ Main Challenges** | Sensitive to outliers; assumes numeric relationships | Class imbalance, overfitting, interpretability |
+| **Target Variable** | Continuous numbers | Discrete categories |
+| **Goal** | Predict exact numeric values | Assign to predefined categories |
+| **Example Problems** | 🏠 House prices, 📈 Stock prices, 🌡️ Temperature | 📧 Spam detection, 🩺 Disease diagnosis, 👤 Image recognition |
+| **Algorithms** | Linear, Polynomial, Ridge/Lasso, Trees, RF, SVR, Boosting | Logistic, Trees, Random Forests, SVM, k-NN, Naïve Bayes, Neural Networks |
+| **Evaluation Metrics** | MAE, MSE, RMSE, R² | Accuracy, Precision, Recall, F1, ROC-AUC |
+| **Output** | Real number (e.g., $250,000) | Class label (e.g., "Spam") or probability |
+| **Use Cases** | Finance, real estate, forecasting | Healthcare, fraud detection, image/speech recognition |
+| **⚠Main Challenges** | Sensitive to outliers; assumes numeric relationships | Class imbalance, overfitting, interpretability |
 
 > **💡 Quick Decision:** Ask yourself "What am I predicting?" If it's a number → Regression. If it's a category → Classification.
 
 ---
 
-## 🔍 Unsupervised Learning
+## Unsupervised Learning
 
 **Unsupervised learning** finds hidden patterns in data without labeled examples. Think of it as exploring data to discover insights you didn't know existed.
 
@@ -255,7 +255,7 @@ Quick reference to help you choose between regression and classification:
 
 ---
 
-## 🎮 Reinforcement Learning Methods
+## Reinforcement Learning Methods
 
 **Reinforcement Learning (RL)** teaches agents to make decisions through trial and error, learning from rewards and penalties.
 
