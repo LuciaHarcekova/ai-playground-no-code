@@ -1,8 +1,8 @@
-# 🤖 Machine Learning Cheatsheet Summary
+# Machine Learning Cheatsheet Summary
 
 *Your comprehensive guide to understanding and applying machine learning concepts*
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [🎯 What is Machine Learning?](#-what-is-machine-learning)
 2. [🔍 AI vs Machine Learning](#-ai-vs-machine-learning)
@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 What is Machine Learning?
+## What is Machine Learning?
 
 **Machine Learning (ML)** is a subset of **Artificial Intelligence (AI)** that enables systems to automatically learn from data and improve performance over time without being explicitly programmed. ML models identify patterns in data to make predictions or decisions.
 
@@ -86,7 +86,7 @@ graph TD
     style J fill:#2196f3
 ```
 
-### 📋 Detailed Workflow Steps:
+### Detailed Workflow Steps:
 
 * **🎯 Problem Definition:** Define the objective and success criteria¹
 * **📊 Data Collection:** Gather relevant datasets from various sources
