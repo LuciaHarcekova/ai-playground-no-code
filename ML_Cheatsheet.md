@@ -135,12 +135,6 @@ Supervised learning trains models on labeled data to learn the mapping from inpu
 * Encode categorical data: LabelEncoder, OneHotEncoder, OrdinalEncoder.
 * Feature scaling: StandardScaler, MinMaxScaler, RobustScaler.
 
-## Model Training Essentials
-
-* Train-test split prevents overfitting.
-* Hyperparameter tuning: GridSearchCV, Bayesian Optimization, AutoML.
-* Feature engineering & selection: PCA, feature importance, correlation matrix.
-
 ---
 
 ## Deep Learning Fundamentals
@@ -157,6 +151,8 @@ Supervised learning trains models on labeled data to learn the mapping from inpu
 * **Bias:** Error from overly simple models (underfitting).
 * **Variance:** Error from overly complex models (overfitting).
 * **Goal:** Balance bias and variance for optimal generalization.
+
+---
 
 ## Common Pitfalls
 
