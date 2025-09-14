@@ -61,7 +61,7 @@
 
 ---
 
-## ⚙️ Machine Learning Workflow
+## Machine Learning Workflow
 
 The ML workflow is a systematic approach to building effective machine learning solutions:
 
