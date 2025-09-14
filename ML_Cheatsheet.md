@@ -106,9 +106,9 @@ Understanding the three main types of ML helps you choose the right approach for
 
 | Type | 🔍 Explanation | 📋 Data Requirement | 🎯 Example Usage | ✅ Benefits | ❌ Limitations |
 | ---- | -------------- | ------------------- | ------------------- | ---------- | ------------- |
-| **🎓 Supervised Learning** | Learns mapping from input to output using labeled data | Requires labeled data (features + target⁴) | 🏠 House price prediction<br/>📧 Spam detection<br/>🩺 Medical diagnosis | High accuracy with sufficient labeled data; easy evaluation | Requires large labeled datasets; may overfit |
-| **🔍 Unsupervised Learning** | Finds hidden patterns without labeled outcomes | Only input features, no target labels | 👥 Customer segmentation<br/>🚨 Anomaly detection<br/>📰 Topic modeling | Explores unknown data; reveals hidden structures | Hard to interpret; no accuracy guarantee |
-| **🎮 Reinforcement Learning** | Learns through environment interaction and rewards/penalties | Requires environment with feedback system | 🚗 Self-driving cars<br/>🎯 Game-playing AI<br/>🤖 Robotics control | Learns complex sequential tasks; adapts through experience | Computationally expensive; slow convergence |
+| **Supervised Learning** | Learns mapping from input to output using labeled data | Requires labeled data (features + target⁴) | 🏠 House price prediction<br/>📧 Spam detection<br/>🩺 Medical diagnosis | High accuracy with sufficient labeled data; easy evaluation | Requires large labeled datasets; may overfit |
+| **Unsupervised Learning** | Finds hidden patterns without labeled outcomes | Only input features, no target labels | 👥 Customer segmentation<br/>🚨 Anomaly detection<br/>📰 Topic modeling | Explores unknown data; reveals hidden structures | Hard to interpret; no accuracy guarantee |
+| **Reinforcement Learning** | Learns through environment interaction and rewards/penalties | Requires environment with feedback system | 🚗 Self-driving cars<br/>🎯 Game-playing AI<br/>🤖 Robotics control | Learns complex sequential tasks; adapts through experience | Computationally expensive; slow convergence |
 
 > **💡 Quick Decision Guide:**
 > - Have labeled data? → **Supervised Learning**
