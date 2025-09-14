@@ -41,19 +41,23 @@
 
 ---
 
-## 🔍 AI vs Machine Learning
+## AI vs Machine Learning
 
-* **🧠 Artificial Intelligence (AI):** A broad field aiming to create machines capable of mimicking human intelligence, including reasoning, learning, and problem-solving.
-* **🤖 Machine Learning (ML):** A subset of AI focused on developing algorithms that allow systems to learn patterns from data.
+* **Artificial Intelligence (AI):** A broad field aiming to create machines capable of mimicking human intelligence, including reasoning, learning, and problem-solving.
+* **Machine Learning (ML):** A subset of AI focused on developing algorithms that allow systems to learn patterns from data.
 
 > **💡 Think of it this way:** AI is the destination (intelligent machines), while ML is one of the vehicles to get there (learning from data).
 
+<div align="center">
+   
 | Aspect | AI | ML |
 |--------|----|----|
 | **Scope** | Broader field | Subset of AI |
 | **Goal** | Mimic human intelligence | Learn from data |
 | **Examples** | Chatbots, robots, expert systems | Recommendation engines, fraud detection |
 | **Approach** | Multiple techniques | Data-driven algorithms |
+
+</div>
 
 ---
 
@@ -104,16 +108,21 @@ graph TD
 
 Understanding the three main types of ML helps you choose the right approach for your problem:
 
-| Type | 🔍 Explanation | 📋 Data Requirement | 🎯 Example Usage | ✅ Benefits | ❌ Limitations |
-| ---- | -------------- | ------------------- | ------------------- | ---------- | ------------- |
-| **Supervised Learning** | Learns mapping from input to output using labeled data | Requires labeled data (features + target⁴) | 🏠 House price prediction<br/>📧 Spam detection<br/>🩺 Medical diagnosis | High accuracy with sufficient labeled data; easy evaluation | Requires large labeled datasets; may overfit |
-| **Unsupervised Learning** | Finds hidden patterns without labeled outcomes | Only input features, no target labels | 👥 Customer segmentation<br/>🚨 Anomaly detection<br/>📰 Topic modeling | Explores unknown data; reveals hidden structures | Hard to interpret; no accuracy guarantee |
-| **Reinforcement Learning** | Learns through environment interaction and rewards/penalties | Requires environment with feedback system | 🚗 Self-driving cars<br/>🎯 Game-playing AI<br/>🤖 Robotics control | Learns complex sequential tasks; adapts through experience | Computationally expensive; slow convergence |
+<div align="center">
+
+| Type | 🔍 Explanation | 🎯 Example Usage | ✅ Benefits | ❌ Limitations |
+|:----|:--------------:|:-----------------|:----------:|:-------------:|
+| **Supervised Learning** | Learns mapping from input to output using labeled data | 🏠 House price prediction<br/>📧 Spam detection<br/>🩺 Medical diagnosis | High accuracy with sufficient labeled data; easy evaluation | Requires large labeled datasets; may overfit |
+| **Unsupervised Learning** | Finds hidden patterns without labeled outcomes | 👥 Customer segmentation<br/>🚨 Anomaly detection<br/>📰 Topic modeling | Explores unknown data; reveals hidden structures | Hard to interpret; no accuracy guarantee |
+| **Reinforcement Learning** | Learns through environment interaction and rewards/penalties | 🚗 Self-driving cars<br/>🎯 Game-playing AI<br/>🤖 Robotics control | Learns complex sequential tasks; adapts through experience | Computationally expensive; slow convergence |
+
+</div>
 
 > **💡 Quick Decision Guide:**
 > - Have labeled data? → **Supervised Learning**
 > - Want to find patterns in unlabeled data? → **Unsupervised Learning**  
 > - Need to learn through trial and error? → **Reinforcement Learning**
+
 
 ---
 
@@ -127,7 +136,9 @@ Understanding the three main types of ML helps you choose the right approach for
 
 *When you need to predict **categories** or **classes***
 
-| Model               | 🔍 Explanatio                                   | Example Usage                    |
+<div align="center">
+   
+| Model               | 🔍 Explanation                                | Example Usage                    |
 | ------------------- | --------------------------------------------- | -------------------------------- |
 | Logistic Regression | Models probability of binary outcomes         | Email spam detection             |
 | Decision Trees      | Classifies using feature-based rules          | Loan approval                    |
@@ -137,6 +148,8 @@ Understanding the three main types of ML helps you choose the right approach for
 | Naïve Bayes         | Probabilistic classifier using Bayes’ theorem | Sentiment analysis               |
 | Gradient Boosting   | Sequential boosted trees for high accuracy    | Fraud detection                  |
 | Neural Networks     | Layers of neurons for complex patterns        | Face recognition                 |
+
+</div>
 
 <details>
 <summary><strong>📊 Classification Evaluation Metrics (Click to expand)</strong></summary>
@@ -195,6 +208,8 @@ Understanding the three main types of ML helps you choose the right approach for
 
 Quick reference to help you choose between regression and classification:
 
+<div align="center">
+   
 | Aspect | 📊 Regression | 🏷️ Classification |
 | ------ | ------------ | ---------------- |
 | **Target Variable** | Continuous numbers | Discrete categories |
@@ -205,6 +220,8 @@ Quick reference to help you choose between regression and classification:
 | **Output** | Real number (e.g., $250,000) | Class label (e.g., "Spam") or probability |
 | **Use Cases** | Finance, real estate, forecasting | Healthcare, fraud detection, image/speech recognition |
 | **⚠Main Challenges** | Sensitive to outliers; assumes numeric relationships | Class imbalance, overfitting, interpretability |
+
+</div>
 
 > **💡 Quick Decision:** Ask yourself "What am I predicting?" If it's a number → Regression. If it's a category → Classification.
 
